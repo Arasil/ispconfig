@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   ispconfig:
-    image: index.docker.io/itsthejb/ispconfig:latest
+    image: arasil/ispconfig:latest
     container_name: ispconfig
     hostname: ispconfig
     domainname: test.com
